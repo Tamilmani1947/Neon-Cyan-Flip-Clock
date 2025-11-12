@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Cyan Flip Clock - Orbitron</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+  <div class="glass-card">
+    <div id="time-wrapper" class="text-6xl sm:text-7xl lg:text-8xl mb-2">
+      <div id="time" aria-live="polite" aria-label="Current time"></div>
+      <div id="ampm" aria-live="polite"></div>
+    </div>
+    <div class="flex justify-center label-grid-time text-center mb-6 label">
+      <span>HOURS</span>
+      <span>MINUTES</span>
+      <span>SECONDS</span>
+    </div>
+    <div id="date" class="text-3xl sm:text-4xl lg:text-5xl mb-2" aria-live="polite" aria-label="Current date"></div>
+    <div class="flex justify-center label-grid-date text-center label">
+      <span>DAY</span>
+      <span>MONTH</span>
+      <span>YEAR</span>
+    </div>
+    <p class="info-text text-center" id="info-text"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
