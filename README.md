@@ -8,7 +8,7 @@ A modern, futuristic digital flip clock built using **HTML**, **Tailwind CSS**, 
 
 ![Neon Flip Clock Demo](https://github.com/Tamilmani1947/Neon-Cyan-Flip-Clock/blob/main/Neon%20Cyan%20Flip%20Clock.png)
 
-Experience the clock live [here](https://github.com/Tamilmani1947/Neon-Cyan-Flip-Clock/) (replace `#` with your GitHub Pages link if available).
+Experience the clock live [here](https://tamilmani1947.github.io/Neon-Cyan-Flip-Clock/) (replace `#` with your GitHub Pages link if available).
 
 ---
 
@@ -46,4 +46,4 @@ Experience the clock live [here](https://github.com/Tamilmani1947/Neon-Cyan-Flip
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/neon-cyan-flip-clock.git
+git clone https://github.com/Tamilmani1947/Neon-Cyan-Flip-Clock.git
